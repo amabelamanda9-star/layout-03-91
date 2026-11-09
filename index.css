@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: darkcyan;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: antiquewhite;
+    color: azure;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.colum.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}

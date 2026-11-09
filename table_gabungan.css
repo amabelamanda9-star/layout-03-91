@@ -1,0 +1,22 @@
+th{
+    height: 40px;
+    padding: 2px;
+    background-color: beige;
+}
+
+tr{
+    background-color: aliceblue;
+}
+
+tr:nth-child(even){
+    background-color: blanchedalmond;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}

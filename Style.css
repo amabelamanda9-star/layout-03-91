@@ -1,0 +1,33 @@
+/* eksternal CSS */
+body{background-color: bisque;}
+h1{
+    color: indigo;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+p{
+    color: cadetblue;
+    font-size: 15;
+}
+
+p.a{text-align: right; color: orange;}
+p.b{text-align: center; color: darkorchid;}
+p.c{text-align: left; color: plum;}
+
+p.line-through{
+    text-decoration: line-through;
+    text-decoration-color: chartreuse;}
+
+p.overline{
+    text-decoration: overline;
+    text-decoration-color: tomato;}
+
+p.underline{
+    text-decoration: underline;
+    text-decoration-color:darkolivegreen;}
+
+p.ou{
+    text-decoration: overline underline; text-decoration: wavy;
+    text-decoration-color: hotpink;}

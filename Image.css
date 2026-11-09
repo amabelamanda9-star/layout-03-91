@@ -1,0 +1,41 @@
+body{background-color: lemonchiffon;
+    background-image: url(Bg.png);}
+
+img.ukuran{height: 300px;
+    width: 300px;}
+
+img.lengkungan{border-radius:20% 20% 20% 20%;
+    height: 300px;
+    width: 330px;}
+
+img.border{height: 300px;
+    width: 330px;
+    border: 5px solid blue;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;}
+
+div.kelompok{height: 400px;
+    width: 400px;
+    background-color: palevioletred;
+    border-radius: 20%;
+    text-align: center;}
+
+div.kelompok img{height: 360px;
+    width: 340px;
+    border-radius: 20%;}
+
+div.efek{height: 400px;
+    width: 400px;
+    background-color: palevioletred;
+    border-radius: 20%;
+    text-align: center;}
+
+div.efek img{height: 360px;
+    width: 340px;
+    border-radius: 20%;}
+
+div.efek:hover{height: 450px;
+    width: 450px;
+    background-color: pink;
+    box-shadow: 15px 15px 10px 15px plum;}
